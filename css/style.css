@@ -1,6 +1,10 @@
+/* import font */
+
+@import url(./fonts.css);
+
 /* css variables */
 
-@import url(./partials/variables.css);
+@import url(./partials/_variables.css);
 
 /* import global styling */
 
@@ -17,7 +21,7 @@
 }
 
 .header_area .main-menu .nav-item .nav-link {
-    font: normal 500 15px/2px var(--roboto);
+    font: normal 500 15px/2px var(--incon);
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -87,12 +91,17 @@
 
 .site-main .about-area .about-title h2>span {
     display: block;
-    font: normal bold 49px/60px var(--roboto);
+    font: normal bold 49px/60px var(--incon);
     letter-spacing: 21px;
 }
 
 .site-main .about-area .about-title .paragraph>p {
-    padding: 0;
+    padding: ;
+}
+
+p.para {
+    color: var(--text-color);
+    font: normal 500 16px/25px var(--incon);
 }
 
 
