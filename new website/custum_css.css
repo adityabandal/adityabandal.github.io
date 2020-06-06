@@ -1,15 +1,3 @@
 body {
     padding-top: 70px;
 }
-
-@mixin gradientBg($startColor, $endColor) {
-    background: $startColor;
-    background: -moz-linear-gradient(left, $startColor 0%, $endColor 80%, $endColor 100%);
-    background: -webkit-linear-gradient(left, $startColor 0%, $endColor 80%, $endColor 100%);
-    background: linear-gradient(to right, $startColor 0%, $endColor 80%, $endColor 100%);
-}
-
-.bg-gradient1 span,
-.bg-gradient1:before {
-    @include gradientBg(#52A0FD, #00e2fa);
-}
