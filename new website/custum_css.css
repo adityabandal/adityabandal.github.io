@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding-top: 70px;
     font-family: 'Inconsolata', monospace;
@@ -11,6 +15,7 @@ body {
     color: black;
 }
 
-.social-media>a:hover {
-    color: darkslategrey;
+.social-media>a>.fa:hover {
+    transform: scale(1.5);
+    transition-duration: 100ms;
 }
