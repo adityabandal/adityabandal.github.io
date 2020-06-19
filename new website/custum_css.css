@@ -6,3 +6,11 @@ body {
 .jumbotron {
     border-radius: 10px;
 }
+
+.social-media>a {
+    color: black;
+}
+
+.social-media>a:hover {
+    color: darkslategrey;
+}
