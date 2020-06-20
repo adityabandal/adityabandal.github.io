@@ -1,3 +1,4 @@
+@import url(./partials/_variables.css);
 html {
     scroll-behavior: smooth;
 }
@@ -5,6 +6,7 @@ html {
 body {
     padding-top: 70px;
     font-family: 'Inconsolata', monospace;
+    background-color: var(--primary-color);
 }
 
 .jumbotron {
