@@ -16,7 +16,11 @@ html {
 body {
     padding-top: 70px;
     font-family: 'Inconsolata', monospace;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
+    background-image: url("../img/bgimg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
     color: white;
     font-size: large;
 }
@@ -28,6 +32,14 @@ body {
 .jumbotron {
     border-radius: 10px;
     background-color: var(--primary-color3);
+}
+
+.main-area {
+    transition: box-shadow .7s ease;
+}
+
+.main-area:hover {
+    box-shadow: white;
 }
 
 h1 {
