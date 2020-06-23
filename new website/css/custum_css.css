@@ -89,3 +89,15 @@ hr {
 .card-body>a>button:hover {
     background-color: var(--title-color);
 }
+
+.footer {
+    background-color: var(--primary-color2);
+}
+
+.email {
+    color: white;
+}
+
+.email:hover {
+    color: white;
+}
