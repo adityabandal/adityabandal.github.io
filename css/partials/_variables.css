@@ -1,16 +1,5 @@
-html,
-body {
-    margin: 0%;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-}
-
-
-/* variables */
-
 :root {
-    --primary-color: #4458dc;
+    --primary-color: #1a1a1b;
     --primary-color2: #854fee;
     --title-color: #141313;
     --text-color: #777777;
